@@ -25,11 +25,12 @@
         div:nth-child(even){
             background-color: grey;
         }
+        /* redundant as white is default BG color
         div:nth-child(odd){
             background-color: white;
-        }
+        } */
         div:nth-child(3n+1){
-            margin: 0px 0px 0px 475px;
+            margin: 0px 0px 0px calc(50% - 150px);
             padding: auto;
         }
         div:nth-child(1n+4):nth-child(-n+6){
